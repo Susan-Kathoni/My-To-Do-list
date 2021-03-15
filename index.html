@@ -18,37 +18,39 @@
 </head>
 
 <body>
-    <div class="container h-100 d-flex" style="text-align: center;">
-        <div class="row h-100 justify-content-center align-items-center">
-            <form id="itemForm">
-                <h1 class="title" style="font-family: 'Akaya Kanadaka', cursive;">THINGS TO DO &#128515;</h1>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="itemInput" value=""
-                        placeholder="Please type your to-do item.">
-                    <button class="btn btn-outline-primary" style="font-family: 'Markazi Text', serif;">ADD
-                        ITEM</button>
-                </div>
-            </form>
-            <ul class="nav nav-tabs" style="font-size: 30px;">
+    <div class="jumbotron vertical-center" id="jumbotron">
+        <div class="container h-100 d-flex" style="text-align: center;">
+            <div class="row h-100 justify-content-center align-items-center">
+                <form id="itemForm">
+                    <h1 class="title" style="font-family: 'Akaya Kanadaka', cursive;">THINGS TO DO &#128515;</h1>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="itemInput" value=""
+                            placeholder="Please type your to-do item.">
+                        <button class="btn btn-outline-primary" style="font-family: 'Markazi Text', serif;">ADD
+                            ITEM</button>
+                    </div>
+                </form>
+                <ul class="nav nav-tabs" style="font-size: 30px;">
 
-                <li class="nav-item" data-type="todo">
-                    <a class="nav-link active" href="#"
-                        style="color: red; font-family: 'Markazi Text', serif;"><strong>TO-DO ITEMS</strong> </a>
-                </li>
-                <li class="nav-item" data-type="done">
-                    <a class="nav-link" href="#"
-                        style="background-color: rgb(216, 252, 216); font-family: 'Markazi Text', serif; color:black">Completed </a>
-                </li>
-                <li class="nav-item" data-type="all">
-                    <a class="nav-link " href="#" style="font-family: 'Markazi Text', serif; color:darkgrey">All</a>
-                </li>
-            </ul>
+                    <li class="nav-item" data-type="todo">
+                        <a class="nav-link active" href="#"
+                            style="color: red; font-family: 'Markazi Text', serif;"><strong>TO-DO ITEMS</strong> </a>
+                    </li>
+                    <li class="nav-item" data-type="done">
+                        <a class="nav-link" href="#"
+                            style="background-color: rgb(216, 252, 216); font-family: 'Markazi Text', serif; color:black">Completed
+                        </a>
+                    </li>
+                    <li class="nav-item" data-type="all">
+                        <a class="nav-link " href="#" style="font-family: 'Markazi Text', serif; color:darkgrey">All</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     </div>
 
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
