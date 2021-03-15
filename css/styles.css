@@ -1,7 +1,14 @@
 body {
+    background: linear-gradient(to right, #4ac29a, #bdfff3);
+   
     
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+
 }
 
+.jumbotron {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+   
+
+}
