@@ -85,7 +85,7 @@ const handleItem = function (itemData) {
       item.querySelector("[data-edit]").addEventListener("click", function (e) {
         e.preventDefault();
         itemInput.value = itemData.name;
-        document.querySelector("#citem").value = todoItems.indexOf(itemData);
+        document.querySelector("#newItem").value = todoItems.indexOf(itemData);
         return todoItems;
       });
 
@@ -161,10 +161,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     } else {
       // update existing Item
-      const currenItemIndex = document.querySelector("#citem").value;
+      const currenItemIndex = document.querySelector("#newItem").value;
       if (currenItemIndex) {
         updateItem(currenItemIndex, itemName);
-        document.querySelector("#citem").value = "";
+        document.querySelector("#newItem").value = "";
         showAlert("Item has been updated.", "alert-success");
       } else {
         // Add new Item
